@@ -1,0 +1,849 @@
+
+.mains {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height:100vh
+   
+  }
+  .lsides {
+   
+   
+    width: 38%;
+  
+   background-color: #f1cdd7;
+    
+  
+  }
+  .logo {
+    visibility: hidden;
+  }
+  .linkend {
+    /* visibility: hidden; */
+    display:none;
+  }
+  .rightside {
+    width: 62%;
+  }
+  .left {
+    margin-left:12rem;
+
+  }
+  .margins {
+    margin: 4rem;
+    margin-right: 6rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+  }
+  .head {
+    color:  #865c6c;
+    margin-top: 2rem;
+    font-size: 25px;
+  
+  }
+  
+  .link {
+    text-align: end;
+    margin: 2rem;
+    margin-bottom: 0rem;
+   
+    
+  }
+  
+  .formsign {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 13rem;
+    margin-top: 3rem;
+  }
+  .btn {
+    width: 16rem;
+    height: 2.5rem;
+    color: #fff;
+    background-color: #1a73e8;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 14px;
+    padding: 0px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btnin {
+    width:30px;
+    height: 30px;
+    background-color: #fff;
+    padding:  0.2rem;
+  
+    border-radius: 2px 0 0 2px;
+   
+    
+  
+  }
+  .gicon {
+    height: 1.3rem;
+    width: 1.3rem;
+    padding: 5px  0 0;
+  }
+  .btntwitter {
+    width: 2.2rem;
+    height: 2rem;
+    border: transparent;
+    border-radius: 10px;
+  }
+  .btn:hover {
+    background-color: #778beb;
+  }
+  .sbutton:hover {
+    background-color: lightgrey;
+  }
+  .sbutton {
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .gicon1 {
+    height: 1.5rem;
+    width: 1rem;
+    padding-top: 4px;
+  }
+  
+  .hr {
+    border-top: 1px solid #f5f6fa;
+    width: 11rem;
+    margin-left: 0px;
+    margin-top: 2.5rem;
+  }
+  .input {
+    width: 12rem;
+    height: 2.3rem;
+    border: none;
+    background-color: #f5f6fa;
+    border-radius: 10px;
+  }
+  .input1 {
+    width: 25rem;
+    height: 2.3rem;
+    border: none;
+    background-color: #f5f6fa;
+    border-radius: 10px;
+  }
+  .input:hover {
+    border: 1px solid lightgray;
+    box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+  }
+  .input1:hover {
+    border: 1px solid lightgray;
+    box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+  }
+  .check {
+    width: 1.3rem;
+    height: 1.1rem;
+  }
+  
+  .signbtn {
+    width: 12.5rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #ea4c89;
+    border-radius: 8px;
+    font-weight:lighter;
+    color: #fff;
+    font-size: 15px;
+  }
+  .font {
+      font-size: 14px;
+      color:gray
+  }
+  .lastfont {
+      font-size: 12px;
+      color:gray
+  }
+  .inputside {
+      display:flex;
+  }
+  .gap {
+      margin-left: 1rem;
+  }
+
+  .a {
+    text-decoration: none;
+    color:blue;
+    font-weight: 1px;
+   
+  }
+
+  .headpassword {
+    font-weight: bold;
+    font-size:24px;
+    margin-bottom: 1rem;
+  }
+  .passwordfont {
+    font-size:15px;
+
+  }
+  .formpassword {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 13rem;
+    margin-top: 4rem;
+  }
+  .circle {
+    border:1px solid lightgray;
+    border-radius: 100%;
+    width:2.5rem;
+    height:2.5rem;
+    margin:2rem;
+  }
+  .header {
+    display:flex;
+    flex-direction: row;
+    
+  }
+  .hlink {
+    
+     
+        
+        margin: 2rem;
+        margin-bottom: 0rem;
+        margin-left: auto !important;
+        
+      
+  }
+  .arrow {
+    padding: 12px;
+    width:15px;
+    height:15px
+  } 
+
+
+  
+  @media only screen and (min-width:301px) and (max-width:600px) {
+    .mains {
+     
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+       
+        align-content: center;
+      }
+      .logo {
+        visibility:visible;
+      }
+     .lsides {
+      visibility:hidden
+     }
+  
+     .rightside {
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      
+     }
+     .link {
+      visibility: hidden;
+     }
+  
+     .formsign {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15rem;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 2rem;
+    }
+    .new_1 {
+      margin-left:-11rem;
+    
+    }
+    .inaline {
+      margin-right: -171px;
+   
+    }
+    .hr {
+      border-top: 1px solid #f5f6fa;
+      width: 8rem;
+      margin-left: 0px;
+      margin-top: 2.5rem;
+    }
+   
+    .input1 {
+      width: 19rem;
+      height: 2.3rem;
+      border: none;
+      background-color: #f5f6fa;
+      border-radius: 10px;
+    }
+  .shift {
+      margin-left:-2px;
+  }
+    
+    .input1:hover {
+      border: 1px solid lightgray;
+      box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+    }
+   
+  .inputside {
+      display: flex;
+      flex-direction: column;
+  }
+  .gap1 {
+      margin-left: 0;
+  }
+  .top {
+      margin-top: 1.5rem;
+  }
+  .signbtn {
+      width: 19rem;
+      height: 2.5rem;
+      border: none;
+      background-color: #ea4c89;
+      border-radius: 10px;
+      font-weight:lighter;
+      color: #fff;
+      font-size: 15px;
+    }
+    .linkend {
+      text-align: center;
+      margin: 1rem;
+      margin-bottom: 0rem;
+      display:block;
+      
+    }
+    .left {
+        margin-left:6rem;
+      }
+    }    
+    @media only screen and (min-width:601px) and (max-width:820px) {
+        .mains {
+     
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+           
+            align-content: center;
+          }
+          .logo {
+            visibility:visible;
+          }
+         .lsides {
+          visibility:hidden
+         }
+      
+         .rightside {
+          width:100%;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          
+         }
+         .link {
+          visibility: hidden;
+         }
+      
+         .formsign {
+          display: flex;
+          flex-direction: column;
+          margin-left: 15rem;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 4rem;
+          margin-left: -12rem;
+        }
+        .new_1 {
+          margin-left:-11rem;
+        
+        }
+        .inaline {
+          margin-right: -171px;
+       
+        }
+        .hr {
+          border-top: 1px solid #f5f6fa;
+          width: 10rem;
+          margin-left: 0px;
+          margin-top: 2.5rem;
+        }
+       
+        .input1 {
+          width: 24rem;
+          height: 2.3rem;
+          border: none;
+          background-color: #f5f6fa;
+          border-radius: 10px;
+        }
+      .shift {
+          margin-left:-2px;
+      }
+        
+        .input1:hover {
+          border: 1px solid lightgray;
+          box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+        }
+       
+      .inputside {
+          display: flex;
+          flex-direction: column;
+      }
+      .gap1 {
+          margin-left: 0;
+      }
+      .top {
+          margin-top: 1.5rem;
+      }
+      .signbtn {
+          width: 24rem;
+          height: 2.5rem;
+          border: none;
+          background-color: #ea4c89;
+          border-radius: 10px;
+          font-weight:lighter;
+          color: #fff;
+          font-size: 15px;
+        }
+        .linkend {
+          text-align: center;
+          margin: 1rem;
+          margin-bottom: 0rem;
+         
+          
+        }
+        .left {
+            margin-left:6rem;
+          }
+        } 
+
+        @media only screen and (min-width:821px) and (max-width:913px) {
+            .mains {
+     
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+               
+                align-content: center;
+              }
+              .logo {
+                visibility:visible;
+              }
+             .lsides {
+              visibility:hidden
+             }
+          
+             .rightside {
+              width:100%;
+              display:flex;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              
+             }
+             .link {
+              visibility: hidden;
+             }
+          
+             .formsign {
+              display: flex;
+              flex-direction: column;
+              margin-left: 15rem;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 4rem;
+              margin-left: -12rem;
+            }
+            .new_1 {
+              margin-left:-11rem;
+            
+            }
+            .inaline {
+              margin-right: -171px;
+           
+            }
+            .hr {
+              border-top: 1px solid #f5f6fa;
+              width: 10rem;
+              margin-left: 0px;
+              margin-top: 2.5rem;
+            }
+           
+            .input1 {
+              width: 24rem;
+              height: 2.3rem;
+              border: none;
+              background-color: #f5f6fa;
+              border-radius: 10px;
+            }
+          .shift {
+              margin-left:-2px;
+          }
+            
+            .input1:hover {
+              border: 1px solid lightgray;
+              box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+            }
+           
+          .inputside {
+              display: flex;
+              flex-direction: column;
+          }
+          .gap1 {
+              margin-left: 0;
+          }
+          .top {
+              margin-top: 1.5rem;
+          }
+          .signbtn {
+              width: 24rem;
+              height: 2.5rem;
+              border: none;
+              background-color: #ea4c89;
+              border-radius: 10px;
+              font-weight:lighter;
+              color: #fff;
+              font-size: 15px;
+            }
+            .linkend {
+              text-align: center;
+              margin: 1rem;
+              margin-bottom: 0rem;
+              display:block;
+              
+            }
+            .left {
+                margin-left:6rem;
+              }
+          }
+          @media only screen and (min-width:913px) and (max-width:1024px) {
+            .mains {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              height: 120vh;
+             
+            }
+            .lsides {
+              position: relative;
+              height: 100vh;
+              width: 44%;
+              /* background-color: #866118; */
+              background-color: #f1cdd7;
+            
+            }
+            
+            .rightside {
+              width: 56%;
+              
+            
+            }
+            /* .new {
+              margin-top:-84px;
+            } */
+            .margins {
+              margin: 2rem;
+              margin-right: 6rem;
+              font-weight: bolder;
+              font-family: Arial, Helvetica, sans-serif;
+              position: fixed;
+            }
+            .head {
+              color: #865c6c;
+              margin-top: 2rem;
+              font-size: 25px;
+            
+            }
+            
+            .link {
+              text-align: end;
+              margin: 2rem;
+              margin-bottom: 0rem;
+             
+              
+            }
+            
+            .formsign {
+              display: flex;
+              flex-direction: column;
+              margin-left: 5rem;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-right: 13rem;
+              width:20rem;
+              margin-top: 2rem;;
+            }
+            .btn {
+              width: 16rem;
+              height: 2.5rem;
+              color: #fff;
+              background-color: #1a73e8;
+              align-items: center;
+              border: none;
+              border-radius: 4px;
+              justify-content: space-between;
+              display: flex;
+              font-size: 14px;
+              padding: 0px 2px;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            .btnin {
+              width:30px;
+              height: 30px;
+              background-color: #fff;
+              padding:  0.2rem;
+            
+              border-radius: 2px 0 0 2px;
+              /* margin-left: -5px; */
+              
+             
+            }
+            .gicon {
+              height: 1.3rem;
+              width: 1.3rem;
+              padding: 5px  0 0;
+            }
+            .btntwitter {
+              width: 2.2rem;
+              height: 2rem;
+              border: transparent;
+              border-radius: 10px;
+            }
+            .btn:hover {
+              background-color: #778beb;
+            }
+            .sbutton:hover {
+              background-color: lightgrey;
+            }
+            .sbutton {
+              margin-left: 15px;
+              border: none;
+              border-radius: 10px;
+            }
+            
+            .gicon1 {
+              height: 1.5rem;
+              width: 1rem;
+              padding-top: 4px;
+            }
+            
+            .hr {
+              border-top: 1px solid #f5f6fa;
+              width: 11rem;
+              margin-left: 0px;
+              margin-top: 2.5rem;
+            }
+           
+            .input1 {
+              width: 25rem;
+              height: 2.3rem;
+              border: none;
+              background-color: #f5f6fa;
+              border-radius: 10px;
+            }
+            
+            .input1:hover {
+              border: 1px solid lightgray;
+              box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+            }
+            .check {
+              width: 1.3rem;
+              height: 1.1rem;
+            }
+            
+            .signbtn {
+              width: 12.5rem;
+              height: 2.5rem;
+              border: none;
+              background-color: #ea4c89;
+              border-radius: 8px;
+              font-weight:lighter;
+              color: #fff;
+              font-size: 15px;
+            }
+          
+            .inputside {
+                display:flex;
+            }
+            .gap1 {
+                margin-left: 1rem;
+            } 
+            .logo1 {
+              visibility: hidden;
+            }
+            .linkend {
+              display:none;
+          }
+          .left {
+            margin-left:25px;
+          }
+          }
+          @media only screen and (min-width:1025px) and (max-width:1280px) {
+            .mains {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                height: 120vh;
+               
+              }
+              .lsides {
+                position: relative;
+                height: 100vh;
+                width: 44%;
+                /* background-color: #866118; */
+                background-color: #f1cdd7;
+              
+              }
+              
+              .rightside {
+                width: 56%;
+                
+              
+              }
+              /* .new {
+                margin-top:-84px;
+              } */
+              .margins {
+                margin: 2rem;
+                margin-right: 6rem;
+                font-weight: bolder;
+                font-family: Arial, Helvetica, sans-serif;
+                position: fixed;
+              }
+              .head {
+                color: #865c6c;
+                margin-top: 2rem;
+                font-size: 25px;
+              
+              }
+              
+              .link {
+                text-align: end;
+                margin: 2rem;
+                margin-bottom: 0rem;
+               
+                
+              }
+              
+              .formsign {
+                display: flex;
+                flex-direction: column;
+                margin-left: 5rem;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-right: 13rem;
+                width:20rem;
+                margin-top: 2rem;;
+              }
+              .btn {
+                width: 16rem;
+                height: 2.5rem;
+                color: #fff;
+                background-color: #1a73e8;
+                align-items: center;
+                border: none;
+                border-radius: 4px;
+                justify-content: space-between;
+                display: flex;
+                font-size: 14px;
+                padding: 0px 2px;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+              .btnin {
+                width:30px;
+                height: 30px;
+                background-color: #fff;
+                padding:  0.2rem;
+              
+                border-radius: 2px 0 0 2px;
+                /* margin-left: -5px; */
+                
+               
+              }
+              .gicon {
+                height: 1.3rem;
+                width: 1.3rem;
+                padding: 5px  0 0;
+              }
+              .btntwitter {
+                width: 2.2rem;
+                height: 2rem;
+                border: transparent;
+                border-radius: 10px;
+              }
+              .btn:hover {
+                background-color: #778beb;
+              }
+              .sbutton:hover {
+                background-color: lightgrey;
+              }
+              .sbutton {
+                margin-left: 15px;
+                border: none;
+                border-radius: 10px;
+              }
+              
+              .gicon1 {
+                height: 1.5rem;
+                width: 1rem;
+                padding-top: 4px;
+              }
+              
+              .hr {
+                border-top: 1px solid #f5f6fa;
+                width: 11rem;
+                margin-left: 0px;
+                margin-top: 2.5rem;
+              }
+             
+              .input1 {
+                width: 25rem;
+                height: 2.3rem;
+                border: none;
+                background-color: #f5f6fa;
+                border-radius: 10px;
+              }
+              
+              .input1:hover {
+                border: 1px solid lightgray;
+                box-shadow: rgba(242, 197, 247, 0.3) 0px 0px 0px 4px;
+              }
+              .check {
+                width: 1.3rem;
+                height: 1.1rem;
+              }
+              
+              .signbtn {
+                width: 12.5rem;
+                height: 2.5rem;
+                border: none;
+                background-color: #ea4c89;
+                border-radius: 8px;
+                font-weight:lighter;
+                color: #fff;
+                font-size: 15px;
+              }
+            
+              .inputside {
+                  display:flex;
+              }
+              .gap1 {
+                  margin-left: 1rem;
+              } 
+              .logo1 {
+                visibility: hidden;
+              }
+              .linkend {
+                display:none;
+            }
+            .left {
+              margin-left:25px;
+            }
+          }
