@@ -65,7 +65,7 @@ export default function SignIn() {
 
             <div style={{ marginTop: "1.5rem" }}>
               <p style={{ marginBottom: "8px",fontWeight:'bold', fontSize:'15px' }}>Password
-              <Link className="a left" to="/" >Forget Password?</Link></p>
+              <Link className="a left" to="/forgetpassword" >Forget Password?</Link></p>
               <input
                 type="text"
                 className="input1"
